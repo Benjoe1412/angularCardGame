@@ -14,18 +14,16 @@ import { DOCUMENT } from '@angular/common';
 })
 export class AppComponent  implements OnInit {
   cardImages = [
-    'lillaAnya',
-    'lillaCsucsori',
-    'lillaKalap',
-    'lillaKanape',
-    'lillaKaja',
-    '20220923_172026',
-    'lillaKocsi',
-    'lillaFagyi',
-    'lillaJoghurt',
-    'lillaMiki'
+    'minta1',
+    'minta2',
+    'minta3',
+    'minta4',
+    'minta5',
+    'minta6',
+    'minta7',
+    'minta8'
   ];
-nCount : number = 9;
+nCount : number = 8;
 matchedCount:number = 0;
 cards: CardData[] = [];
 flippedCards: CardData[] = [];
